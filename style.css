@@ -79,9 +79,15 @@ li {
 	margin-top: 0;
 }
 
+.music ul {
+	padding: 1rem;
+}
+
 .music li {
 	display: inline-block;
-	margin: 1rem;
+	width: 5rem;
+	height: 5rem;
+	margin: 0 0.5rem;
 }
 
 .music img{
@@ -99,7 +105,7 @@ li {
 .tidal,
 .deezer,
 .soundcloud {
-	height: 1.8rem;
+	height: 2rem;
 
 }
 
