@@ -17,6 +17,11 @@ body {
 	margin: 0;
 }
 
+body {
+	display: flex;
+	flex-direction: column;
+}
+
 ::selection {
   background: #9100aa; /* WebKit/Blink Browsers */
   color: #000;
@@ -53,6 +58,11 @@ li {
 	list-style: none;
 	padding: 0;
 	margin: 0;
+}
+
+.wrapper {
+	flex: 1 0 auto;
+	width: 100%;
 }
 
 .music {
@@ -94,8 +104,8 @@ li {
 }
 
 .footer {
-	position:absolute;
 	display: flex;
+	flex-shrink: 0; 
 	align-items:center;
 	text-transform: uppercase;
 	padding: 1rem;
